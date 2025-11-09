@@ -3,12 +3,5 @@
   "buildCommand": "npm run build",
   "outputDirectory": "build",
   "installCommand": "npm install",
-  "functions": {
-    "**/*.js": {
-      "runtime": "nodejs18.x"
-    }
-  },
-  "env": {
-    "CI": "false"
-  }
+  "framework": "create-react-app"
 }
